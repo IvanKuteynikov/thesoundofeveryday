@@ -34,7 +34,7 @@
             $subject = "New message!";
             $message = "New request!\n\nE-mail: " . $email . "\n\nName: " . $name . "\n\nMessage: " . $msg . "\n\n";
             // Your email here
-            $mail = mail("email@example.com", $subject, $message, "From: " . $name . " <" . $email . "> " . "Reply-To: " . $email . " " . " X-Mailer: PHP/" . phpversion());
+            $mail = mail("hello@thesoundofeveryday.com", $subject, $message, "From: " . $name . " <" . $email . "> " . "Reply-To: " . $email . " " . " X-Mailer: PHP/" . phpversion());
             if ($mail) {
                 echo 'OK';
             }
