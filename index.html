@@ -206,22 +206,27 @@
 <!-- SUBSCRIBE -->
 <section class="subscribe">
   <div class="container">
-    <div class="row">
-      <h2 class="wow fadeUp" data-wow-delay=".3s">Subscribe to our newsletter.</h2>
-      <form id="ajaxChimp" class="wow fadeUp" data-wow-delay=".3s" 
-            action="https://thesoundofeveryday.us18.list-manage.com/subscribe/post?u=ffc22532dc0cf0c7b219c1740&amp;id=b86fabb592&amp;f_id=00b7c2e1f0" 
-            method="post" target="_blank"> <input id="mce-EMAIL" type="email" name="EMAIL" placeholder="Enter your email address" required> <button type="submit"><i class="fa fa-fw fa-envelope"></i></button>
-        <label for="mce-EMAIL"></label>
-
-        <div aria-hidden="true" style="position: absolute; left: -5000px;">
-          <input type="text" name="b_ffc22532dc0cf0c7b219c1740_b86fabb592" tabindex="-1" value="">
-        </div>
-
-      </form>
-    </div>
+      <div class="row">
+          <h2 class="wow fadeUp" data-wow-delay=".3s">Subscribe to our newsletter.</h2>
+          <!-- Begin Mailchimp Form -->
+          <form action="https://thesoundofeveryday.us18.list-manage.com/subscribe/post?u=ffc22532dc0cf0c7b219c1740&amp;id=b86fabb592&amp;f_id=00b7c2e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="wow fadeUp validate" data-wow-delay=".3s" target="_self" novalidate>
+              <div id="mc_embed_signup_scroll">
+                  <!-- Your email input adjusted to match Mailchimp's requirements -->
+                  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter your email address" required>
+                  <!-- Mailchimp's bot management field -->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                      <input type="text" name="b_ffc22532dc0cf0c7b219c1740_b86fabb592" tabindex="-1" value="">
+                  </div>
+                  <!-- Your original submit button with added name attribute -->
+                  <button type="submit" name="subscribe"><i class="fa fa-fw fa-envelope"></i></button>
+              </div>
+          </form>
+          <!-- End Mailchimp Form -->
+      </div>
   </div>
 </section>
 <!-- END SUBSCRIBE -->
+
 
 <!-- ABOUT -->
 <!--<section class="about">
