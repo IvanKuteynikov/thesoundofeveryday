@@ -603,7 +603,7 @@ header #effect-box, header .video-box, header .image-box {
 
 .subscribe {
 	background: #303440;
-	padding: 100px 0 100px;
+	padding: 10px 0 10px;
 	z-index: 10;
 	border-top: 6px solid #fff;
     border-bottom: 6px solid #393A4C;
